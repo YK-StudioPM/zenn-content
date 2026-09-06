@@ -3,7 +3,7 @@ title: "【事故】GitHubのアカウント名を変えたら、リリース済
 emoji: "🔗"
 type: "tech"
 topics: ["github", "googleplay", "個人開発"]
-published: false
+published: true
 ---
 
 GitHubのアカウント名を変えました。よかれと思ってやりました。

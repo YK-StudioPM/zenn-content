@@ -3,7 +3,7 @@ title: "審査員がアプリを開けない。Play Consoleの配信国を「日
 emoji: "🌏"
 type: "tech"
 topics: ["googleplay", "android", "個人開発"]
-published: false
+published: true
 ---
 
 海外のコンテストにアプリを出しています。審査員は10/1〜10/13に**ストアURLから自分の実機にインストールして**評価する、という要件です。
