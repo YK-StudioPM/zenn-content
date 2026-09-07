@@ -34,7 +34,7 @@ const META = {
   'play-screenshot-spec-trap':   { emoji: '🖼', topics: ['googleplay', 'powershell', '個人開発'] },
   'demo-video-pii-leak':         { emoji: '🕶', topics: ['ffmpeg', 'security', '個人開発'] },
   'blog-monetization-what-is-actually-required': { emoji: '💰', topics: ['adsense', 'astro', 'ポエム'], type: 'idea' },
-  'ai-employees-what-actually-works': { emoji: '🧑‍💼', topics: ['ai', 'claude', '個人開発'], type: 'idea' },
+  'ai-employees-what-actually-works': { emoji: '🧑‍💼', topics: ['ai', 'claude', 'claudecode', 'マルチエージェント', '個人開発'], type: 'idea' },
 };
 
 const DEFAULT_TARGETS = [
