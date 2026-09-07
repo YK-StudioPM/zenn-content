@@ -144,9 +144,9 @@ _creditService.setCredits(サーバーが返した絶対値);  // 上書き
 
 ---
 
-このアプリの開発は、AIエージェントに役割を割り振った体制で行っています。その体制で何が効いたかは[こちらの記事](https://ykstudio-jp.netlify.app/blog/ai-employees-what-actually-works/)に書きました。運用にかかっている実際のクラウド費用は[こちら](https://ykstudio-jp.netlify.app/blog/cloud-cost-zero-yen/)で全部公開しています。
+このアプリの開発は、AIエージェントに役割を割り振った体制で行っています。その体制で何が効いたかは[こちらの記事](https://ykstudio.net/blog/ai-employees-what-actually-works/)に書きました。運用にかかっている実際のクラウド費用は[こちら](https://ykstudio.net/blog/cloud-cost-zero-yen/)で全部公開しています。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/revenuecat-silent-failure/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/revenuecat-silent-failure/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

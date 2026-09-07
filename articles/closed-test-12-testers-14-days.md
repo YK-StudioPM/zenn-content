@@ -115,9 +115,9 @@ Google Playには複数のテストトラックがあります。
 
 ---
 
-ストア関連では[スクリーンショットの解像度要件で弾かれた話](https://ykstudio-jp.netlify.app/blog/play-screenshot-spec-trap/)、[リリースビルドでだけ落ちるクラッシュ3件](https://ykstudio-jp.netlify.app/blog/flutter-release-only-crashes/)も書いています。
+ストア関連では[スクリーンショットの解像度要件で弾かれた話](https://ykstudio.net/blog/play-screenshot-spec-trap/)、[リリースビルドでだけ落ちるクラッシュ3件](https://ykstudio.net/blog/flutter-release-only-crashes/)も書いています。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/closed-test-12-testers-14-days/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/closed-test-12-testers-14-days/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

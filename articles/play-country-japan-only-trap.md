@@ -95,9 +95,9 @@ Play Consoleでの操作はこうです。
 
 ---
 
-同じ「外から見たら壊れていた」系では、[GitHubのアカウント名を変えて規約ページが全部404になった話](https://ykstudio-jp.netlify.app/blog/github-rename-broke-three-apps/)が最悪でした。ストア審査まわりの時間の読み方は[テスター12人×14日の逆算](https://ykstudio-jp.netlify.app/blog/closed-test-12-testers-14-days/)にまとめてあります。
+同じ「外から見たら壊れていた」系では、[GitHubのアカウント名を変えて規約ページが全部404になった話](https://ykstudio.net/blog/github-rename-broke-three-apps/)が最悪でした。ストア審査まわりの時間の読み方は[テスター12人×14日の逆算](https://ykstudio.net/blog/closed-test-12-testers-14-days/)にまとめてあります。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/play-country-japan-only-trap/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/play-country-japan-only-trap/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

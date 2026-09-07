@@ -12,7 +12,7 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 
-const SITE = 'https://ykstudio-jp.netlify.app';
+const SITE = 'https://ykstudio.net';
 const SRC = path.resolve('../site/src/content/blog');
 const OUT = path.resolve('./articles');
 

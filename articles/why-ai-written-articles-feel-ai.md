@@ -126,9 +126,9 @@ AIがやる    素材の整理、構成、文章化
 
 ---
 
-実際にこの方針で書いた記事の例は、[課金が11日間壊れていた話](https://ykstudio-jp.netlify.app/blog/revenuecat-silent-failure/)と[自動投稿19本が1本も投稿されていなかった話](https://ykstudio-jp.netlify.app/blog/x-autopost-19-posts-never-sent/)です。収益化の条件を一次情報まで当たって調べた話は[こちら](https://ykstudio-jp.netlify.app/blog/blog-monetization-what-is-actually-required/)。
+実際にこの方針で書いた記事の例は、[課金が11日間壊れていた話](https://ykstudio.net/blog/revenuecat-silent-failure/)と[自動投稿19本が1本も投稿されていなかった話](https://ykstudio.net/blog/x-autopost-19-posts-never-sent/)です。収益化の条件を一次情報まで当たって調べた話は[こちら](https://ykstudio.net/blog/blog-monetization-what-is-actually-required/)。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/why-ai-written-articles-feel-ai/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/why-ai-written-articles-feel-ai/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

@@ -133,9 +133,9 @@ async function gotoWithRetry(page, url, tries = 4) {
 
 ---
 
-同じ「エラーが出ないまま壊れていた」系では、[課金が11日間動いていなかった話](https://ykstudio-jp.netlify.app/blog/revenuecat-silent-failure/)のほうが被害は大きかったです。この自動化を含めて、開発も運用もAIエージェントに割り振った体制で回しています。その体制の話は[こちら](https://ykstudio-jp.netlify.app/blog/ai-employees-what-actually-works/)に書きました。
+同じ「エラーが出ないまま壊れていた」系では、[課金が11日間動いていなかった話](https://ykstudio.net/blog/revenuecat-silent-failure/)のほうが被害は大きかったです。この自動化を含めて、開発も運用もAIエージェントに割り振った体制で回しています。その体制の話は[こちら](https://ykstudio.net/blog/ai-employees-what-actually-works/)に書きました。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/x-autopost-19-posts-never-sent/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/x-autopost-19-posts-never-sent/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

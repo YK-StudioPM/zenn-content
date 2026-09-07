@@ -94,11 +94,11 @@ Googleはこの申告URLが実際に到達できるかを審査で確認しま�
 
 ---
 
-この事故は、AIエージェントを「社員」として複数走らせている体制で起きました。その体制で何が効いて何が無駄だったかは[こちらの記事](https://ykstudio-jp.netlify.app/blog/ai-employees-what-actually-works/)にまとめています。
+この事故は、AIエージェントを「社員」として複数走らせている体制で起きました。その体制で何が効いて何が無駄だったかは[こちらの記事](https://ykstudio.net/blog/ai-employees-what-actually-works/)にまとめています。
 
 Google Play関連ではもう1つ、個人開発者を確実に殴ってくる「クローズドテスト12人×14日」の要件があります。これは別記事で書く予定です。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/github-rename-broke-three-apps/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/github-rename-broke-three-apps/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

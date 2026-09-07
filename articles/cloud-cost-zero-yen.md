@@ -90,11 +90,11 @@ STAGE 3に到達するには、いまの数百倍のトラフィックが必要�
 
 ---
 
-この3本のアプリは、AIエージェントに役割を割り振った「AI社員」の体制で開発しています。その体制で実際に何が起きたかは[別の記事](https://ykstudio-jp.netlify.app/blog/ai-employees-what-actually-works/)に書きました。
+この3本のアプリは、AIエージェントに役割を割り振った「AI社員」の体制で開発しています。その体制で実際に何が起きたかは[別の記事](https://ykstudio.net/blog/ai-employees-what-actually-works/)に書きました。
 
 次は、実際の売上のほうを同じ粒度で公開する予定です。こちらは0円では済まない話になります。
 
 ---
 
-この記事は個人サイト [YK Studio](https://ykstudio-jp.netlify.app/) に掲載したものです（初出: https://ykstudio-jp.netlify.app/blog/cloud-cost-zero-yen/）。
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/cloud-cost-zero-yen/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
