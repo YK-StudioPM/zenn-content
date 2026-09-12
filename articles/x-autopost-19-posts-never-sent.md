@@ -3,7 +3,7 @@ title: "【事故】Xの自動投稿を19本流したつもりだった。アカ
 emoji: "📮"
 type: "tech"
 topics: ["playwright", "typescript", "自動化", "個人開発"]
-published: false
+published: true
 ---
 
 自動化でいちばん怖いのは、動かないことではありません。

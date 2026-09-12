@@ -35,6 +35,9 @@ const META = {
   'demo-video-pii-leak':         { emoji: '🕶', topics: ['ffmpeg', 'security', '個人開発'] },
   'blog-monetization-what-is-actually-required': { emoji: '💰', topics: ['adsense', 'astro', 'ポエム'], type: 'idea' },
   'ai-employees-what-actually-works': { emoji: '🧑‍💼', topics: ['ai', 'claude', 'claudecode', 'マルチエージェント', '個人開発'], type: 'idea' },
+  'google-play-release-checklist-2026': { emoji: '✅', topics: ['googleplay', 'android', '個人開発'] },
+  'internal-docs-were-wrong': { emoji: '📄', topics: ['ai', 'ポエム', '個人開発'], type: 'idea' },
+  'places-api-caching-policy': { emoji: '🗺', topics: ['googlemaps', 'firebase', '個人開発'] },
 };
 
 const DEFAULT_TARGETS = [
@@ -46,7 +49,7 @@ const DEFAULT_TARGETS = [
 ];
 
 const parse = (raw) => {
-  const m = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const m = raw.replace(/\r\n/g, '\n').match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!m) throw new Error('frontmatterが見つかりません');
   const fm = {};
   for (const line of m[1].split('\n')) {

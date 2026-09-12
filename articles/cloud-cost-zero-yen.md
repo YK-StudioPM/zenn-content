@@ -3,7 +3,7 @@ title: "【全公開】個人開発アプリ3本をFirebaseで1ヶ月動かし�
 emoji: "🧾"
 type: "tech"
 topics: ["firebase", "googlecloud", "個人開発"]
-published: false
+published: true
 ---
 
 Firebaseの「Blazeプラン（従量課金）にアップグレードしますか？」というボタンを、自分は3週間くらい押せませんでした。

@@ -3,7 +3,7 @@ title: "個人開発者はGoogle Playに「テスター12人×14日」で殴ら�
 emoji: "📱"
 type: "tech"
 topics: ["android", "googleplay", "個人開発"]
-published: false
+published: true
 ---
 
 アプリが完成しました。ストアに出せると思いました。

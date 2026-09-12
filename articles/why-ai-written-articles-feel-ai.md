@@ -3,7 +3,7 @@ title: "「AIが書いた記事」が嫌われる理由は、AIが書いたこ�
 emoji: "✍️"
 type: "idea"
 topics: ["ai", "zenn", "ポエム"]
-published: false
+published: true
 ---
 
 このサイトの記事は、AIエージェントに書かせています。自分がやっているのは、素材を渡すことと、公開の判断だけです。

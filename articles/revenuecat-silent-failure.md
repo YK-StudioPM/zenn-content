@@ -3,7 +3,7 @@ title: "【事故】アプリの課金が11日間壊れていた。購入は成�
 emoji: "💸"
 type: "tech"
 topics: ["flutter", "firebase", "revenuecat", "個人開発"]
-published: false
+published: true
 ---
 
 課金機能のバグで、いちばん怖いのは「エラーが出るバグ」ではありません。
