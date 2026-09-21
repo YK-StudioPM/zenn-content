@@ -46,3 +46,8 @@ note の記事投稿を自動化しようとして、丸一日ハマった話。
 個人でアプリを3本作りながら、こうした自動化まわりの地雷を踏んだ記録を note にまとめています。
 
 https://note.com/yk_studio/n/n56f6f821ee5a
+
+---
+
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/note-publish-settings-js-not-saved/）。
+アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。

@@ -72,3 +72,8 @@ Googleが配布しているUMP SDKを使い、次の構成にした。
 個人でアプリを3本作って運用している話を note にまとめています。運用ルール・引き継ぎテンプレ・今回のような事故の記録を全文公開しています。
 
 https://note.com/yk_studio/n/n56f6f821ee5a
+
+---
+
+この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/admob-ump-eu-consent-177-countries/）。
+アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
