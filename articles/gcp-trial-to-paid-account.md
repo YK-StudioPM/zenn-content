@@ -111,3 +111,6 @@ gcloud billing accounts describe 012A11-412AAD-E43B6A
 
 この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/gcp-trial-to-paid-account/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
+
+- 作ったアプリ: [Works](https://ykstudio.net/#works)
+- アプリ開発・ストア公開のご依頼: [料金と進め方](https://ykstudio.net/services/)

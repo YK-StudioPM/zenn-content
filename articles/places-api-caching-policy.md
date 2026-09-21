@@ -133,3 +133,6 @@ UI側でも、**評価の生値は表示しません。** 「口コミ4.3」で�
 
 この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/places-api-caching-policy/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
+
+- この記事で触れているアプリ: [ナラブ](https://ykstudio.net/works/narabu/)
+- アプリ開発・ストア公開のご依頼: [料金と進め方](https://ykstudio.net/services/)

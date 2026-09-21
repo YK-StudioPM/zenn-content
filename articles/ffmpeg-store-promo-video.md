@@ -167,3 +167,6 @@ AIの生成にクレジットや無料枠を使うアプリなので、動画の
 
 この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/ffmpeg-store-promo-video/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
+
+- この記事で触れているアプリ: [Nemuru](https://ykstudio.net/works/nemuru/)
+- アプリ開発・ストア公開のご依頼: [料金と進め方](https://ykstudio.net/services/)

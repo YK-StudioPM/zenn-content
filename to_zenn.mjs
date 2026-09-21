@@ -65,6 +65,41 @@ const targets = process.argv.slice(2).length
 
 const available = (await readdir(SRC)).map((f) => f.replace(/\.md$/, ''));
 
+/**
+ * 記事 → アプリの対応は site/src/data/works.ts が唯一の正。ここで持たない。
+ * 二重管理にすると、works.ts に記事を足したときZenn側だけ古い対応のまま残る。
+ */
+async function loadAppByPost() {
+  const ts = await readFile(path.resolve('../site/src/data/works.ts'), 'utf8');
+  const map = {};
+  const re = /slug:\s*'([^']+)',[\s\S]*?name:\s*'([^']+)',[\s\S]*?posts:\s*\[([\s\S]*?)\]/g;
+  for (const m of ts.matchAll(re)) {
+    const [, appSlug, appName, postsRaw] = m;
+    for (const p of postsRaw.matchAll(/'([^']+)'/g)) {
+      // 複数アプリに載っている記事は先に書かれた方を採る（サイト側の著者ボックスと同じ規則）
+      if (!map[p[1]]) map[p[1]] = { slug: appSlug, name: appName };
+    }
+  }
+  return map;
+}
+const APP_BY_POST = await loadAppByPost();
+
+/** 記事末尾の導線。初出リンク＋該当アプリ＋受託。CTAを増やしすぎると全部押されなくなる */
+function footer(slug) {
+  const app = APP_BY_POST[slug];
+  const appLine = app
+    ? `- この記事で触れているアプリ: [${app.name}](${SITE}/works/${app.slug}/)`
+    : `- 作ったアプリ: [Works](${SITE}/#works)`;
+  return `---
+
+この記事は個人サイト [YK Studio](${SITE}/) に掲載したものです（初出: ${SITE}/blog/${slug}/）。
+アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
+
+${appLine}
+- アプリ開発・ストア公開のご依頼: [料金と進め方](${SITE}/services/)
+`;
+}
+
 for (const slug of targets) {
   if (!available.includes(slug)) {
     console.error(`✗ 記事が見つかりません: ${slug}`);
@@ -89,11 +124,7 @@ published: false
 
 ${converted}
 
----
-
-この記事は個人サイト [YK Studio](${SITE}/) に掲載したものです（初出: ${SITE}/blog/${slug}/）。
-アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
-`;
+${footer(slug)}`;
 
   await writeFile(path.join(OUT, `${slug}.md`), out, 'utf8');
   console.log(`✓ ${slug}.md`);

@@ -150,3 +150,6 @@ _creditService.setCredits(サーバーが返した絶対値);  // 上書き
 
 この記事は個人サイト [YK Studio](https://ykstudio.net/) に掲載したものです（初出: https://ykstudio.net/blog/revenuecat-silent-failure/）。
 アプリ3本を個人開発して、実際に壊れた話と実際にかかった金額を書いています。
+
+- この記事で触れているアプリ: [Kiroku](https://ykstudio.net/works/kiroku/)
+- アプリ開発・ストア公開のご依頼: [料金と進め方](https://ykstudio.net/services/)
