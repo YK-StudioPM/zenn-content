@@ -2,13 +2,12 @@
 setlocal enabledelayedexpansion
 cd /d "C:\Users\0512y\Desktop\shipaton\8_YKStudio\zenn"
 echo [%date% %time%] Zenn redeploy start >> redeploy.log
+powershell -NoProfile -Command "$d=git log -1 --format=%%cI; if($d){$days=[math]::Round(((Get-Date)-[datetime]$d).TotalDays,1); Write-Output \"last commit $days days ago\"}" >> redeploy.log 2>&1
 
-powershell -NoProfile -Command "$deadline=(Get-Date).AddMinutes(20); $ok=$false; while((Get-Date) -lt $deadline){try{$c=New-Object System.Net.Sockets.TcpClient; $iar=$c.BeginConnect('github.com',443,$null,$null); if($iar.AsyncWaitHandle.WaitOne(800) -and $c.Connected){$ok=$true; $c.Close(); break}; $c.Close()}catch{}; Start-Sleep -Seconds 15}; if(-not $ok){exit 1}"
-if errorlevel 1 (
-  echo [%date% %time%] Zenn redeploy skipped: no network after 20min wait >> redeploy.log
-  endlocal
-  exit /b 0
-)
+REM 2026-09-26 fix: network probe only delays start, never cancels the run.
+REM Always proceeds to push even on timeout. The old exit-0-on-timeout path
+REM caused a silent multi-day skip and was removed.
+powershell -NoProfile -Command "$deadline=(Get-Date).AddMinutes(5); $ok=$false; while((Get-Date) -lt $deadline){try{$c=New-Object System.Net.Sockets.TcpClient; $iar=$c.BeginConnect('github.com',443,$null,$null); if($iar.AsyncWaitHandle.WaitOne(800) -and $c.Connected){$ok=$true; $c.Close(); break}; $c.Close()}catch{}; Start-Sleep -Seconds 15}; if($ok){Write-Output 'network ok'}else{Write-Output 'network probe timed out, proceeding anyway'}" >> redeploy.log 2>&1
 
 git commit --allow-empty -m "Zenn redeploy trigger (auto, waiting on Zenn post rate limit to clear)" >> redeploy.log 2>&1
 
